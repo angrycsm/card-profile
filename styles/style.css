@@ -1,0 +1,204 @@
+/* Define estilos padrão para todos os elementos */
+* {
+  margin: 0; /* Define a margem como zero */
+  padding: 0; /* Define o preenchimento como zero */
+  box-sizing: border-box; /* Define a modelagem da caixa como border-box */
+  line-height: 1; /* Define a altura da linha */
+  font-family: Inter; /* Define a família de fontes como Inter */
+}
+
+/* Define estilos para o elemento html */
+html {
+  height: 100vh; /* Define a altura como 100% da altura da viewport */
+  width: 100%; /* Define a largura como 100% */
+}
+
+/* Define estilos para o elemento body */
+body {
+  background-color: #0f172a; /* Define a cor de fundo */
+  width: 100%; /* Define a largura como 100% */
+  height: 100%; /* Define a altura como 100% */
+}
+
+/* Define estilos para o container principal */
+.container {
+  width: 100%; /* Define a largura como 100% */
+  height: 100%; /* Define a altura como 100% */
+  display: flex; /* Define o display como flexível */
+  flex-direction: column; /* Define a direção dos itens como coluna */
+  justify-content: center; /* Alinha os itens ao centro verticalmente */
+  align-items: center; /* Alinha os itens ao centro horizontalmente */
+}
+
+/* Define estilos para o cartão principal */
+.card {
+  background-color: white; /* Define a cor de fundo como branca */
+  width: 600px; /* Define a largura */
+  height: auto; /* Define a altura automática */
+  display: flex; /* Define o display como flexível */
+  flex-direction: column; /* Define a direção dos itens como coluna */
+  align-items: center; /* Alinha os itens ao centro horizontalmente */
+  border-radius: 10px; /* Define o raio da borda */
+}
+
+/* Define estilos para o cabeçalho */
+header {
+  width: 100%; /* Define a largura como 100% */
+  height: 200px; /* Define a altura */
+  display: flex; /* Define o display como flexível */
+  flex-direction: column; /* Define a direção dos itens como coluna */
+  align-items: center; /* Alinha os itens ao centro horizontalmente */
+  justify-content: center; /* Alinha os itens ao centro verticalmente */
+  gap: 16px; /* Define o espaço entre os itens */
+}
+
+/* Define estilos para a imagem de perfil */
+.card-profile {
+  width: 120px; /* Define a largura */
+  height: 120px; /* Define a altura */
+  border-radius: 50%; /* Define o raio da borda */
+  background-color: #f4f4f5; /* Define a cor de fundo */
+}
+
+/* Define estilos para o nome do perfil */
+.profile p {
+  font-size: 20px; /* Define o tamanho da fonte */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Define estilos para a linha separadora */
+.separar {
+  background-color: #3f3f46; /* Define a cor de fundo */
+  width: 95%; /* Define a largura */
+  height: 0.5px; /* Define a altura */
+}
+
+/* Define estilos para a seção principal */
+main {
+  width: 100%; /* Define a largura como 100% */
+  height: auto; /* Define a altura automática */
+  display: flex; /* Define o display como flexível */
+  flex-direction: column; /* Define a direção dos itens como coluna */
+  justify-content: center; /* Alinha os itens ao centro verticalmente */
+  align-items: center; /* Alinha os itens ao centro horizontalmente */
+  gap: 8px; /* Define o espaço entre os itens */
+  margin-top: 15px; /* Define a margem superior */
+}
+
+/* Define estilos para os parágrafos dentro da seção principal */
+main p {
+  text-align: center;
+  font-weight: bold; /* Define o peso da fonte como negrito */
+
+}
+
+/* Define estilos para a seção "Sobre mim" */
+.about-me {
+  width: 85%; /* Define a largura */
+  height: auto; /* Define a altura automática */
+  background-color: #f4f4f5; /* Define a cor de fundo */
+  padding: 12px; /* Define o preenchimento */
+  margin-bottom: 20px; /* Define a margem inferior */
+}
+
+/* Define estilos para os parágrafos dentro da seção "Sobre mim" */
+.about-me p {
+  font-size: 12px; /* Define o tamanho da fonte */
+  font-weight: 300; /* Define o peso da fonte como normal */
+}
+
+/* Define estilos para o container de educação e experiência */
+.container-exp-ed {
+  width: 100%; /* Define a largura como 100% */
+  height: auto; /* Define a altura automática */
+  display: flex; /* Define o display como flexível */
+  gap: 40px; /* Define o espaço entre os itens */
+  margin-top: 12px; /* Define a margem superior */
+  padding-bottom: 20px; /* Define o preenchimento inferior */
+}
+
+/* Define estilos para o container de educação */
+.container-ed {
+  width: 300px; /* Define a largura */
+  height: auto; /* Define a altura automática */
+  border-radius: 10px; /* Define o raio da borda */
+  display: flex; /* Define o display como flexível */
+  flex-direction: column; /* Define a direção dos itens como coluna */
+  justify-content: center; /* Alinha os itens ao centro verticalmente */
+  align-items: center; /* Alinha os itens ao centro horizontalmente */
+  gap: 12px; /* Define o espaço entre os itens */
+  margin-left: 5%; /* Define a margem esquerda */
+}
+
+/* Define estilos para os parágrafos dentro do container de educação */
+.container-ed p {
+  font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Define estilos para a seção de educação */
+.education {
+  width: auto; /* Define a largura automática */
+  height: auto; /* Define a altura automática */
+  background-color: #f4f4f5; /* Define a cor de fundo */
+  padding: 12px; /* Define o preenchimento */
+  display: flex; /* Define o display como flexível */
+  flex-direction: column; /* Define a direção dos itens como coluna */
+  justify-content: center; /* Alinha os itens ao centro verticalmente */
+  align-items: start; /* Alinha os itens à esquerda */
+  gap: 5px; /* Define o espaço entre os itens */
+}
+
+/* Define estilos para os itens da lista de educação */
+.education ul > li {
+  font-weight: 300; /* Define o peso da fonte como normal */
+  font-size: 10px; /* Define o tamanho da fonte */
+  margin-left: 5px; /* Define a margem esquerda */
+}
+
+/* Define estilos para os itens secundários da lista de educação */
+.education ul > li > ul > li {
+  margin-left: 14px; /* Define a margem esquerda */
+}
+
+/* Define estilos para o container de experiência */
+.container-exp {
+  width: 300px; /* Define a largura */
+  height: auto; /* Define a altura automática */
+  border-radius: 10px; /* Define o raio da borda */
+  display: flex; /* Define o display como flexível */
+  flex-direction: column; /* Define a direção dos itens como coluna */
+  justify-content: center; /* Alinha os itens ao centro verticalmente */
+  align-items: center; /* Alinha os itens ao centro horizontalmente */
+  gap: 12px; /* Define o espaço entre os itens */
+  margin-right: 5%; /* Define a margem esquerda */
+}
+
+/* Define estilos para os parágrafos dentro do container de experiência */
+.container-exp p {
+  font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Define estilos para a seção de experiência */
+.experiencia {
+  width: auto; /* Define a largura automática */
+  height: auto; /* Define a altura automática */
+  background-color: #f4f4f5; /* Define a cor de fundo */
+  padding: 12px; /* Define o preenchimento */
+  display: flex; /* Define o display como flexível */
+  flex-direction: column; /* Define a direção dos itens como coluna */
+  justify-content: center; /* Alinha os itens ao centro verticalmente */
+  align-items: start; /* Alinha os itens à esquerda */
+  gap: 5px; /* Define o espaço entre os itens */
+}
+
+/* Define estilos para os itens da lista de experiência */
+.experiencia ul > li {
+  font-weight: 300; /* Define o peso da fonte como normal */
+  font-size: 10px; /* Define o tamanho da fonte */
+  margin-left: 5px; /* Define a margem esquerda */
+}
+
+/* Define estilos para os itens secundários da lista de experiência */
+.experiencia ul > li > ul > li {
+  margin-left: 14px; /* Define a margem esquerda */
+}

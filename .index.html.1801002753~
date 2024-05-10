@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Profile</title>
+  <link href="/styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+     <div class="card">
+        <header class="profile">
+          <div class="card-profile"></div>
+          <p>Csm</p>
+        </header>
+        <div class="separar"></div>
+        <main>
+          <p>Sobre mim</p>
+          <div class="about-me">
+            <p>
+              Lucas era um jovem de vinte e cinco anos com uma paixão ardente pela tecnologia desde tenra idade. Seus olhos brilhavam ao falar sobre inteligência artificial e programação, e sua mente inquisitiva o impulsionava a explorar novas fronteiras da ciência computacional. Com um sorriso sempre pronto e um entusiasmo contagiante, Lucas era conhecido entre seus amigos como o "gênio da tecnologia". Fora de seu mundo digital, ele encontrava serenidade na natureza, passando horas explorando trilhas e admirando paisagens montanhosas. Sua curiosidade insaciável não se limitava apenas à tecnologia; ele também mergulhava em livros sobre filosofia e astronomia nas noites tranquilas. Com uma personalidade vibrante e uma mente inquisitiva, Lucas continuava a deixar sua marca no mundo, sempre em busca de novos horizontes para explorar.
+            </p>
+          </div>
+        </main>
+        <div class="separar"></div>
+       <div class="container-exp-ed">
+          <section class="container-ed">
+            <p>Educação</p>
+            <div class="education">
+               <ul>
+                  <li>Escola Primária "Sol Nascente" - Ensino Fundamental I
+                    <ul>
+                       <li>Período: 2005-2011</li>
+                    </ul>
+                  </li>
+               </ul>
+
+               <ul>
+                  <li>Colégio Estadual "Monte Verde" - E
+nsino Médio
+                  <ul>
+                     <li>Período: 2012-2015</li>
+                  </ul>
+                  </li>
+               </ul>
+               
+            </div>
+          </section>
+          <section>
+            <div>
+               <ul>
+                  <li></li>
+               </ul>
+            </div>
+          </section>
+       </div>
+     </div>
+     
+  </div>
+  
+</body>
+
+</html>
